@@ -32,10 +32,11 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  }
-
+    '/': {
+	view: 'homepage'
+    }
+    // For now, it isn't so much an app as it is a static site
+    // The reason I'm using Sails is mostly to allow for the project to eventually include accounts, etc.
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
